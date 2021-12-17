@@ -1,0 +1,35 @@
+.header {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background-color: rgb(2, 70, 116);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 2.5vw;
+  padding: 15px 0;
+  margin: 0;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+@media (max-width: 1300px) {
+  .header {
+    font-size: 3vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .header {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    font-size: 6vw;
+  }
+}

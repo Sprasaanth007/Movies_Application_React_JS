@@ -1,0 +1,45 @@
+.single-content {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  color: white;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+}
+
+.single-content:hover {
+  background-color: white;
+  color: #282c34;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+@media (max-width: 550px) {
+  .single-content {
+    width: 42vw;
+  }
+}
+
+.movie_and_date {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 7px;
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 10px 0 7px 0;
+}

@@ -1,0 +1,11 @@
+.bottom-navigation-bar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(5, 27, 46);
+  z-index: 100;
+}
+
+.bottom-navbar-icons {
+  color: white;
+}
